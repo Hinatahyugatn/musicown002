@@ -7,19 +7,19 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("23267195"))
+API_HASH = getenv("0c0a90ec461dcc88fa70512e01e798d7")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6698596506:AAFjBRIVYpTfE5jSzU6vSoRLik29sUNyNOU")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://BrandedSupportGroup:BRANDED_WORLD@cluster0.v4odcq9.mongodb.net/?retryWrites=true&w=majority", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1002017765894", None))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 6773003322))
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Kartikmarkad/Zenoxmusic.git",
+    "www.youtube.com",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -78,10 +78,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/379463d243e308af0d198.jpg"
+    "START_IMG_URL", "https://graph.org/file/4186251e4a1587e8527a4.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/9d7266a000f7797549d97.jpg"
+    "PING_IMG_URL", "https://graph.org/file/caf591a7c820fbfac0b17.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
